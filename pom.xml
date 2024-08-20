@@ -5,7 +5,7 @@
     <name>java-api-model</name>
     <groupId>com.passpack.api</groupId>
     <artifactId>java-api-model</artifactId>
-    <version>11.0.1</version>
+    <version>11.0.2</version>
     <packaging>jar</packaging>
 
 
@@ -32,7 +32,7 @@
     <scm>
         <connection>scm:git:git://github.com/Passpack/java-api-model.git</connection>
         <developerConnection>scm:git:ssh://github.com:Passpack/java-api-model.git</developerConnection>
-        <url>http://github.com/simpligility/ossrh-demo/tree/master</url>
+        <url>https://github.com/Passpack/java-api-model/</url>
     </scm>
 
     <properties>

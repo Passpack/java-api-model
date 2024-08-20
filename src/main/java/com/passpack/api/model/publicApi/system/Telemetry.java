@@ -16,9 +16,6 @@ public class Telemetry {
         this.start = System.currentTimeMillis();
     }
 
-    public long getElapsedInMs() {
-        return end - start;
-    }
     public void markEnd() {
         this.end = System.currentTimeMillis();
     }
