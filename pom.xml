@@ -5,7 +5,7 @@
     <name>java-api-model</name>
     <groupId>com.passpack.api</groupId>
     <artifactId>java-api-model</artifactId>
-    <version>11.0.2</version>
+    <version>11.0.3</version>
     <packaging>jar</packaging>
 
 
