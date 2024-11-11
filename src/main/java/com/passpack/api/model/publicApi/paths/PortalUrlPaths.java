@@ -58,4 +58,8 @@ public class PortalUrlPaths {
     public static final String PASSWORD_GROUP_LIST = PASSWORD_PATH + "/group/list";
     public static final String PASSWORD_GROUP_INITIALIZATION_STATUS = PASSWORD_PATH + "/group/status";
     public static final String PASSWORD_GROUP_REMOVE_MEMBER = PASSWORD_PATH + "/group/member/remove";
+
+    // Teams - the new way to reference password group
+    public static final String TEAM_PATH = SECURE_BASE + "/team";
+    public static final String TEAM_MANAGE_MEMBERSHIP = TEAM_PATH + "/manageMembership";
 }

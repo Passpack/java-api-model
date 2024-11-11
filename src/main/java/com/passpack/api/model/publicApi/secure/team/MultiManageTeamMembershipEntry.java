@@ -13,5 +13,5 @@ public class MultiManageTeamMembershipEntry  {
     private long memberId;
     private int role;
     private String gk;
-    private int action = 3; // 1 == add, 2 == remove, 3 == update
+    private int action = ACTION_TYPE_UPDATE;
 }
