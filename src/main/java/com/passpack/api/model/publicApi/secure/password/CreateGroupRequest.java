@@ -13,5 +13,10 @@ public class CreateGroupRequest extends PasspackRequestObject  {
     private String metadataKey;
     private String description;
     private String encryptedGroupKey;
+    private String vaultId;
+    private String data;
+    private boolean defaultTeam = false;
+    private int version = 1;
+    private String encryptedTeamKeyForVault;
     private int defaultRoleForGroupMembers = -1;
 }

@@ -14,4 +14,9 @@ public class PasswordGroupsEntry  {
     private int role;
     private int defaultRole;
     private int status;
+    private String data;
+    private int version = 1;
+    private String vaultId;
+    private boolean defaultTeam = false;
+    private String encryptedGroupKey;
 }

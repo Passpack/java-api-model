@@ -21,5 +21,6 @@ public class OrganizationLicenseListEntry {
     private List<String> roles = new ArrayList<>();
     private String mfa;
     private boolean domainVerified;
+    private boolean memberOtherOrganization = false;
     private String lastLogin;
 }
