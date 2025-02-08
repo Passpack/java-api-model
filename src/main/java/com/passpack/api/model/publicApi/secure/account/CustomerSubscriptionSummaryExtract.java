@@ -1,9 +1,12 @@
 package com.passpack.api.model.publicApi.secure.account;
 
 
+import com.passpack.api.model.publicApi.secure.account.billing.AppliedCoupon;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Data
@@ -31,4 +34,5 @@ public class CustomerSubscriptionSummaryExtract  {
     private BigDecimal discountedAmount = BigDecimal.ZERO;
     private BigDecimal amountPerUser = BigDecimal.ZERO;
     private boolean businessTrialAvailable = false;
+    private List<AppliedCoupon> appliedCoupons = new ArrayList<>();
 }
