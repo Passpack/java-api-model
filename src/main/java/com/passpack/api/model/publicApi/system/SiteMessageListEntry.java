@@ -15,5 +15,7 @@ public class SiteMessageListEntry {
     private String messageClass;
     private String action;
     private Date expires;
+    private String link;
+    private String linkDescription;
 
 }
