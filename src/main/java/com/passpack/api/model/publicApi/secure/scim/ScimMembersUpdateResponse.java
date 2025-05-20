@@ -1,13 +1,11 @@
-package com.passpack.api.model.publicApi.secure.password;
+package com.passpack.api.model.publicApi.secure.scim;
 
 import com.passpack.api.model.publicApi.PasspackResponseObject;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-
 @Data
 @EqualsAndHashCode(callSuper=false)
-public class CreateGroupResponse extends PasspackResponseObject  {
-    private long id;
-  
+public class ScimMembersUpdateResponse extends PasspackResponseObject  {
+
 }

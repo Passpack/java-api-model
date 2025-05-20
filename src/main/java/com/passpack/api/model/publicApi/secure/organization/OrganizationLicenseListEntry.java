@@ -16,6 +16,8 @@ import java.util.Map;
 public class OrganizationLicenseListEntry {
     private String username;
     private String name;
+    private String firstName;
+    private String lastName;
     private String email;
     private String status;
 

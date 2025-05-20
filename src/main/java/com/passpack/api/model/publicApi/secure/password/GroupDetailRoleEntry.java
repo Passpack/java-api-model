@@ -9,15 +9,17 @@ public class GroupDetailRoleEntry {
     private int role;
     private int shareType;
     private String username;
+    private boolean apiUser = false;
 
     public GroupDetailRoleEntry() {
     }
 
-    public GroupDetailRoleEntry(long id, int role, int shareType, String username) {
+    public GroupDetailRoleEntry(long id, int role, int shareType, String username, boolean apiUser) {
         this.id = id;
         this.role = role;
         this.shareType = shareType;
         this.username = username;
+        this.apiUser = apiUser;
     }
 
 
