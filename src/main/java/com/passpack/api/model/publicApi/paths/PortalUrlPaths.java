@@ -54,6 +54,8 @@ public class PortalUrlPaths {
     public static final String PASSWORD_GROUP_DETAIL = PASSWORD_PATH + "/group/detail";
     public static final String PASSWORD_GROUP_CREATE = PASSWORD_PATH_V2 + "/group/create";
     public static final String PASSWORD_GROUP_DELETE = PASSWORD_PATH + "/group/delete";
+    public static final String PASSWORD_GROUP_UPDATE = PASSWORD_PATH + "/group/update";
+    public static final String PASSWORD_GROUP_UPDATE_PARENT = PASSWORD_PATH + "/group/updateParent";
     public static final String PASSWORD_GROUP_MANAGE_MEMBERSHIP = PASSWORD_PATH + "/group/manageTeamMembership";
     public static final String PASSWORD_GROUP_LIST = PASSWORD_PATH + "/group/list";
     public static final String PASSWORD_GROUP_INITIALIZATION_STATUS = PASSWORD_PATH + "/group/status";
@@ -66,4 +68,11 @@ public class PortalUrlPaths {
     // Teams - the new way to reference password group
     public static final String TEAM_PATH = SECURE_BASE + "/team";
     public static final String TEAM_MANAGE_MEMBERSHIP = TEAM_PATH + "/manageMembership";
+
+    // SCIM
+    public static final String SCIM_PATH = SECURE_BASE + "/scim";
+    public static final String SCIM_REPORT_PATH = SECURE_BASE + "/report";
+    public static final String SCIM_REPORT_RUN_PATH = SCIM_REPORT_PATH + "/run";
+    public static final String SCIM_TEAM_LIST = SCIM_PATH + "/teams";
+    public static final String SCIM_ORG_MEMBERS_UPDATE = SCIM_PATH + "/org/members/update";
 }

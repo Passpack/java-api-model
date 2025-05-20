@@ -5,7 +5,7 @@
     <name>java-api-model</name>
     <groupId>com.passpack.api</groupId>
     <artifactId>java-api-model</artifactId>
-    <version>11.0.6</version>
+    <version>11.0.7</version>
     <packaging>jar</packaging>
 
 
@@ -45,8 +45,8 @@
         <maven.source.plugin.version>3.3.1</maven.source.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <jackson.version>2.18.1</jackson.version>
-        <lombok.version>1.18.34</lombok.version>
+        <jackson.version>2.18.2</jackson.version>
+        <lombok.version>1.18.36</lombok.version>
     </properties>
 
     <dependencies>
