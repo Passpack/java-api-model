@@ -11,15 +11,13 @@ import java.util.List;
 
 @Data
 public class CustomerSubscriptionSummaryExtract  {
-    private String subscriptionSku;
     private int subscriptionStatus;
     private String trialEndDate;
     private String subscriptionRenewalDate;
-    private String additionalLicenseSku;
-    private int additionalLicenseCount;
+    private String licenseSku;
+    private int licenseCount;
     private int licensesUsed;
     private int licensesAvailable;
-    private int baseLicensesIncluded;
     private int totalLicenseCount;
     private boolean paymentEntered;
     private boolean trialUpgrade;
@@ -35,4 +33,5 @@ public class CustomerSubscriptionSummaryExtract  {
     private BigDecimal amountPerUser = BigDecimal.ZERO;
     private boolean businessTrialAvailable = false;
     private List<AppliedCoupon> appliedCoupons = new ArrayList<>();
+    private String frequency; // monthly or yearly
 }
